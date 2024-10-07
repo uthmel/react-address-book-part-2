@@ -6,7 +6,7 @@ function AddContact() {
   const [lastName, setLastName] = useState('');
   const [street, setStreet] = useState('');
   const [city, setCity] = useState('');
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
 
   const handleSubmit = (event) => {
     event.preventDefault();
